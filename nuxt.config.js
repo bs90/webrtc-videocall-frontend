@@ -89,6 +89,6 @@ export default {
     }
   },
   env: {
-    WS_URL: process.env.WS_URL || 'https://videocall-rtc.herokuapp.com'
+    WS_URL: process.env.WS_URL || 'https://gentle-anchorage-37439.herokuapp.com/'
   }
 }
