@@ -49,7 +49,7 @@ export default {
   data () {
     return {
       clipped: false,
-      title: 'Video call 1-1'
+      title: 'テナンタビデオチャット'
     }
   },
   computed: mapState({
