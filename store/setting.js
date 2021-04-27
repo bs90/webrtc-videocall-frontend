@@ -1,5 +1,5 @@
 export const state = () => ({
-  name: 'Guest',
+  name: '',
   overlay: false,
   camera: null
 })

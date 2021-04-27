@@ -6,16 +6,9 @@
       app
       flat
     >
-      <v-btn
-        icon
-        to="/"
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-message</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
+      <img src="../assets/video.png" alt="logo" style="width: 100px; padding: 30px 0;">
+      <v-toolbar-title v-text="title" style="font-size: 15px;margin-bottom: -3px;font-weight: bold;color: #eb7934;"/>
       <v-spacer />
-      {{ name }}
     </v-app-bar>
     <v-content>
       <div class="main">
@@ -49,7 +42,7 @@ export default {
   data () {
     return {
       clipped: false,
-      title: 'テナンタビデオチャット'
+      title: '　ビデオチャット'
     }
   },
   computed: mapState({
